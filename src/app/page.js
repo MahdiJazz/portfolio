@@ -74,7 +74,6 @@ export default function Home() {
                   ></i>
                 </a>
               </div>
-            
             </div>
           </div>
         </section>
@@ -298,25 +297,33 @@ export default function Home() {
               <i className="bx bx-brush services-icon"></i>
               <h3 className="services-title">UI/UX Design</h3>
               <p className="services-description">
-                I create intuitive and engaging user experiences through
-                thoughtful interface design. By combining user research,
-                wireframing, and interactive prototyping, I develop digital
-                solutions that are both beautiful and functional. My
-                user-centered approach ensures that every element serves a
-                purpose.
+                SEO (Search Engine Optimization) I specialize in optimizing
+                websites to rank higher on search engines and drive organic
+                traffic. Using strategies like keyword research, on-page
+                optimization, technical SEO, and link building, I improve
+                visibility, enhance user experience, and ensure sustainable
+                growth.
               </p>
             </div>
 
-            {/* Backend Development */}
+            {/* SEO (Search Engine Optimization) */}
             <div className="services-content">
               <i className="bx bx-server services-icon"></i>
-              <h3 className="services-title">Backend Development</h3>
+              <h3 className="services-title">
+                SEO (Search Engine Optimization)
+              </h3>
               <p className="services-description">
-                I specialize in building robust and scalable server-side
+                {/* I specialize in building robust and scalable server-side
                 solutions that power modern web applications. Using technologies
                 like Node.js, PHP, and various databases, I develop secure APIs,
                 implement efficient data management systems, and create reliable
-                server architectures.
+                server architectures. */}
+                I specialize in optimizing websites to achieve higher rankings
+                on search engine results pages and drive organic traffic. Using
+                strategies like keyword research, on-page optimization,
+                technical SEO, and link building, I enhance website visibility,
+                improve user experience, and ensure sustainable growth in search
+                engine performance.
               </p>
             </div>
 
@@ -350,7 +357,7 @@ export default function Home() {
 
         <section className="project section">
           <div className="project-container bd-grid">
-            {/* اطلاعات پروژه */}
+            {/* info-projects*/}
             <div className="project-data">
               <h2 className="section-title project-title">
                 Do you have any project in mind?
@@ -364,11 +371,11 @@ export default function Home() {
               </a>
             </div>
 
-            {/* تصویر پروژه */}
+            {/* photo-projects*/}
           </div>
         </section>
 
-        {/* نمونه کارها*/}
+        {/*  portfolio */}
         <section className="works section" id="works">
           <span className="section-subtitle">My Portfolio</span>
           <h2 className="section-title">Recent Works</h2>
@@ -422,16 +429,16 @@ export default function Home() {
           </div>
         </section>
 
-        {/* تماس با من*/}
+        {/*  contact */}
         <section className="contact section" id="contact">
           <span className="section-subtitle">Contact me</span>
           <h2 className="section-title">Get in Touch</h2>
 
           <div className="contact-container bd-grid">
-            {/* فرم ارسال پیام */}
+            {/* form */}
             <ContactForm />
 
-            {/* اطلاعات تماس */}
+            {/* info-contact  */}
             <div>
               <div className="contact-info">
                 <h3 className="contact-subtitle">Call me</h3>
@@ -440,13 +447,12 @@ export default function Home() {
 
               <div className="contact-info">
                 <h3 className="contact-subtitle">E-mail</h3>
-                <span className="contact-text">jazini.edu@gmail.com</span>
+                <span className="contact-text">
+                  mahdi.jazini.frontend@gmail.com
+                </span>
               </div>
 
-              <div className="contact-info">
-                <h3 className="contact-subtitle">Location</h3>
-                <span className="contact-text">Tehran , Iran</span>
-              </div>
+             
             </div>
           </div>
         </section>
